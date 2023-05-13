@@ -97,6 +97,7 @@
 
     "statusBar.foreground": "#7A7A94",
     "sideBar.foreground": "#7A7A94",
+    "sideBar.foreground": "#7A7A94",
 
     // YELLOW
 
@@ -216,6 +217,7 @@
     "gitDecoration.deletedResourceForeground": "#C5599A",
     "gitDecoration.stageDeletedResourceForeground": "#C5599A",
     "gitDecoration.stageModifiedResourceForeground": "#CD9677",
+    "gitDecoration.ignoredResourceForeground": "#7A7A94A0",
     "settings.modifiedItemIndicator": "#CD9677"
   },
   "tokenColors": [

@@ -216,6 +216,7 @@
     "gitDecoration.deletedResourceForeground": "#D76F8E",
     "gitDecoration.stageDeletedResourceForeground": "#D76F8E",
     "gitDecoration.stageModifiedResourceForeground": "#E0A67C",
+    "gitDecoration.ignoredResourceForeground": "#7D7D7D80",
     "settings.modifiedItemIndicator": "#E0A67C"
   },
   "tokenColors": [
