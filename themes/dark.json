@@ -218,7 +218,13 @@
     "gitDecoration.stageDeletedResourceForeground": "#C5599A",
     "gitDecoration.stageModifiedResourceForeground": "#CD9677",
     "gitDecoration.ignoredResourceForeground": "#7A7A94A0",
-    "settings.modifiedItemIndicator": "#CD9677"
+    "settings.modifiedItemIndicator": "#CD9677",
+    "editorBracketHighlight.foreground1": "#B8B8C3",
+    "editorBracketHighlight.foreground2": "#CDC075",
+    "editorBracketHighlight.foreground3": "#7BB48B",
+    "editorBracketHighlight.foreground4": "#84B5D1",
+    "editorBracketHighlight.foreground5": "#CD9677",
+    "editorBracketHighlight.foreground6": "#C5599A"
   },
   "tokenColors": [
     // Orange
