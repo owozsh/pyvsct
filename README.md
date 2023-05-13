@@ -1,1 +1,3 @@
-# amora color scheme
+# yogokai
+
+![screenshot](screenshot.png)
