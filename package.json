@@ -1,7 +1,7 @@
 {
-  "name": "amora",
+  "name": "yogokai",
   "publisher": "owozsh",
-  "displayName": "amora",
+  "displayName": "yogokai",
   "description": "",
   "version": "1.0.0",
   "repository": "https://github.com/owozsh/amora-vscode",
@@ -14,14 +14,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "amora",
+        "label": "yogokai",
         "uiTheme": "vs-dark",
         "path": "./themes/dark.json"
-      },
-      {
-        "label": "amora light",
-        "uiTheme": "vs",
-        "path": "./themes/light.json"
       }
     ]
   }
