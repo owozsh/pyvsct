@@ -1,0 +1,27 @@
+{
+  "name": "amora",
+  "publisher": "owozsh",
+  "displayName": "amora",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "amora",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark.json"
+      },
+      {
+        "label": "amora light",
+        "uiTheme": "vs",
+        "path": "./themes/light.json"
+      }
+    ]
+  }
+}
