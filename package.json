@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "yogokai",
   "description": "",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/owozsh/amora-vscode",
   "engines": {
     "vscode": "^1.65.0"
@@ -19,5 +19,6 @@
         "path": "./themes/dark.json"
       }
     ]
-  }
+  },
+  "icon": "./icon.png"
 }
