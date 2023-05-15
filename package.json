@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "yogokai",
   "description": "",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "repository": "https://github.com/owozsh/yogokai",
   "engines": {
     "vscode": "^1.65.0"
@@ -22,11 +22,6 @@
         "label": "yogokai pro",
         "uiTheme": "vs-dark",
         "path": "./themes/pro.json"
-      },
-      {
-        "label": "yogokai colors",
-        "uiTheme": "vs-dark",
-        "path": "./themes/colors.json"
       },
       {
         "label": "yogokai midnight",
