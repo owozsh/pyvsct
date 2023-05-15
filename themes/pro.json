@@ -304,7 +304,13 @@
     },
     // BLUE_ITALIC
     {
-      "scope": ["support.constant.property-value", "entity.name.type"],
+      "scope": [
+        "support.constant.property-value",
+        "entity.name.type",
+        "storage.type",
+        "storage.type.function",
+        "storage"
+      ],
       "settings": {
         "foreground": "#8CC3CB",
         "fontStyle": "italic"
@@ -328,8 +334,6 @@
         "source.jsx punctuation.section.embedded",
         "keyword.operator",
         "storage.type.function.arrow",
-        "storage.type.function",
-        "storage",
         "keyword.operator.assignment",
         "punctuation.accessor.optional",
         "punctuation.definition.string.template",
@@ -348,7 +352,6 @@
         "entity.name.tag.html",
         "entity.name.tag.css",
         "keyword.operator.new",
-        "storage.type",
         "storage.modifier",
         "constant.language.boolean"
       ],
