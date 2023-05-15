@@ -349,7 +349,8 @@
         "entity.name.tag.css",
         "keyword.operator.new",
         "storage.type",
-        "storage.modifier"
+        "storage.modifier",
+        "constant.language.boolean"
       ],
       "settings": {
         "foreground": "#C5599A",
@@ -450,7 +451,6 @@
         "constant.other.color",
         "entity.name.tag.wildcard",
         "constant",
-        "constant.language.boolean",
         "support.type.property-name.css",
         "entity.other.attribute-name.tsx"
       ],
