@@ -104,7 +104,7 @@
     // ORANGE:
     "inputValidation.warningBackground": "#A7D28490",
     "inputValidation.warningBorder": "#A7D284",
-    "statusBar.debuggingBackground": "#A7D284",
+    "statusBar.debuggingBackground": "#A7D28410",
 
     // RED:
     "errorForeground": "#D76F8E",
