@@ -54,6 +54,7 @@
     "panel.background": "#272727",
     "activityBar.background": "#272727",
     "tab.activeBackground": "#272727",
+    "tab.hoverBackground": "#232323",
 
     "editorPane.background": "#1F1F1F",
     "activityBarBadge.foreground": "#1F1F1F",
