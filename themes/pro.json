@@ -117,7 +117,7 @@
     "inputValidation.infoBorder": "#E3A476",
 
     // CYAN:
-    "editor.lineHighlightBackground": "#26282C",
+    "editor.lineHighlightBackground": "#1E2023",
     "editor.lineHighlightBorder": "#08151f00",
     "editorLineNumber.activeForeground": "#D4BE85",
     "focusBorder": "#D4BE85",
