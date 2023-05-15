@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "yogokai",
   "description": "",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": "https://github.com/owozsh/amora-vscode",
   "engines": {
     "vscode": "^1.65.0"
@@ -13,6 +13,11 @@
   ],
   "contributes": {
     "themes": [
+      {
+        "label": "yogokai",
+        "uiTheme": "vs-dark",
+        "path": "./themes/default.json"
+      },
       {
         "label": "yogokai pro",
         "uiTheme": "vs-dark",
@@ -24,9 +29,9 @@
         "path": "./themes/colors.json"
       },
       {
-        "label": "yogokai dark",
+        "label": "yogokai midnight",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark.json"
+        "path": "./themes/midnight.json"
       }
     ]
   },
