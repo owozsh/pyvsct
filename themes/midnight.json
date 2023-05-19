@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": "#93C6A1",
-    "class": "#83BCD4",
+    "class": "#93C6A1",
     "type": "#83BCD4",
     "method": "#93C6A1",
     "parameter": "#DDA789",
@@ -63,6 +63,7 @@
     "titleBar.border": "#111213",
     "statusBar.border": "#111213",
     "activityBar.border": "#111213",
+    "editorGroup.border": "#111213",
 
     "editorPane.background": "#17191F",
     "activityBarBadge.foreground": "#17191F",
@@ -74,7 +75,6 @@
 
     "editorLineNumber.foreground": "#48486A",
     "panel.border": "#48486A00",
-    "editorGroup.border": "#48486A00",
     "editorIndentGuide.background": "#48486A30",
     "editorOverviewRuler.border": "#48486A10",
     "editorWidget.resizeBorder": "#48486A30",
@@ -97,7 +97,6 @@
     "activityBar.inactiveForeground": "#48486A",
 
     "statusBar.foreground": "#7A7A94",
-    "sideBar.foreground": "#7A7A94",
     "sideBar.foreground": "#7A7A94",
 
     // YELLOW

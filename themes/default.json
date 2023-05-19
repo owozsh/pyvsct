@@ -4,7 +4,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     "function": "#8EDCA4",
-    "class": "#A4DFF9",
+    "class": "#8EDCA4",
     "type": "#A4DFF9",
     "method": "#8EDCA4",
     "parameter": "#EAB685",
@@ -63,6 +63,7 @@
     "titleBar.border": "#16171A",
     "statusBar.border": "#16171A",
     "activityBar.border": "#16171A",
+    "editorGroup.border": "#16171A",
 
     "editorPane.background": "#1C2028",
     "activityBarBadge.foreground": "#1C2028",
@@ -74,7 +75,6 @@
 
     "editorLineNumber.foreground": "#5D6F93",
     "panel.border": "#5D6F9300",
-    "editorGroup.border": "#5D6F9300",
     "editorIndentGuide.background": "#5D6F9330",
     "editorOverviewRuler.border": "#5D6F9310",
     "editorWidget.resizeBorder": "#5D6F9330",
@@ -253,7 +253,7 @@
     },
     // ORANGE:
     {
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "entity.name.type.class"],
       "settings": {
         "foreground": "#8EDCA4",
         "fontStyle": ""
@@ -296,7 +296,7 @@
     },
     // BLUE_UNDERLINE
     {
-      "scope": ["support.type", "entity.name.type.class"],
+      "scope": ["support.type"],
       "settings": {
         "foreground": "#A4DFF9",
         "fontStyle": ""
