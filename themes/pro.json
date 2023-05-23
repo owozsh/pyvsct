@@ -5,11 +5,11 @@
   "semanticTokenColors": {
     "function": "#9DC179",
     "class": "#9DC179",
-    "type": "#8DBCCB",
+    "type": "#97C3D0",
     "method": "#9DC179",
     "parameter": "#CEA77A",
-    "property": "#9991CB",
-    "variable.defaultLibrary": "#8DBCCB"
+    "property": "#AE91CB",
+    "variable.defaultLibrary": "#97C3D0"
   },
   "colors": {
     "terminalCursor.background": "#000000",
@@ -21,12 +21,12 @@
     "terminal.ansiBrightYellow": "#C3C182",
     "terminal.ansiGreen": "#9DC179",
     "terminal.ansiBrightGreen": "#9DC179",
-    "terminal.ansiBlue": "#9991CB",
-    "terminal.ansiBrightBlue": "#9991CB",
+    "terminal.ansiBlue": "#AE91CB",
+    "terminal.ansiBrightBlue": "#AE91CB",
     "terminal.ansiMagenta": "#CEA77A",
     "terminal.ansiBrightMagenta": "#CEA77A",
-    "terminal.ansiCyan": "#8DBCCB",
-    "terminal.ansiBrightCyan": "#8DBCCB",
+    "terminal.ansiCyan": "#97C3D0",
+    "terminal.ansiBrightCyan": "#97C3D0",
     "terminal.ansiWhite": "#BFC3CA",
     "terminal.ansiBrightWhite": "#BFC3CA",
     "terminal.selectionBackground": "#CB6EA620",
@@ -222,7 +222,7 @@
     "editorBracketHighlight.foreground1": "#BFC3CA",
     "editorBracketHighlight.foreground2": "#C3C182",
     "editorBracketHighlight.foreground3": "#9DC179",
-    "editorBracketHighlight.foreground4": "#8DBCCB",
+    "editorBracketHighlight.foreground4": "#97C3D0",
     "editorBracketHighlight.foreground5": "#CEA77A",
     "editorBracketHighlight.foreground6": "#CB6EA6"
   },
@@ -290,7 +290,7 @@
     {
       "scope": ["support.class"],
       "settings": {
-        "foreground": "#8DBCCB",
+        "foreground": "#97C3D0",
         "fontStyle": ""
       }
     },
@@ -298,7 +298,7 @@
     {
       "scope": ["support.type", "entity.name.type.class"],
       "settings": {
-        "foreground": "#8DBCCB",
+        "foreground": "#97C3D0",
         "fontStyle": ""
       }
     },
@@ -312,7 +312,7 @@
         "storage"
       ],
       "settings": {
-        "foreground": "#8DBCCB",
+        "foreground": "#97C3D0",
         "fontStyle": "italic"
       }
     },
@@ -458,14 +458,14 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#9991CB",
+        "foreground": "#AE91CB",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["variable.other.property"],
       "settings": {
-        "foreground": "#9991CB",
+        "foreground": "#AE91CB",
         "fontStyle": ""
       }
     },
