@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "yogokai",
   "description": "",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "repository": "https://github.com/owozsh/yogokai",
   "engines": {
     "vscode": "^1.65.0"
@@ -32,6 +32,11 @@
         "label": "yogokai classic",
         "uiTheme": "vs-dark",
         "path": "./themes/classic.json"
+      },
+      {
+        "label": "yogokai y",
+        "uiTheme": "vs-dark",
+        "path": "./themes/y.json"
       }
     ]
   },
