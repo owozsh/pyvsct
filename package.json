@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "yogokai",
   "description": "",
-  "version": "1.6.3",
+  "version": "1.6.4",
   "repository": "https://github.com/owozsh/yogokai",
   "engines": {
     "vscode": "^1.65.0"
