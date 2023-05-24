@@ -8,7 +8,7 @@
     "type": "#95C0CD",
     "method": "#99C07B",
     "parameter": "#CEA77A",
-    "property": "#A491CC",
+    "property": "#B090CA",
     "variable.defaultLibrary": "#95C0CD"
   },
   "colors": {
@@ -21,8 +21,8 @@
     "terminal.ansiBrightYellow": "#C3C182",
     "terminal.ansiGreen": "#99C07B",
     "terminal.ansiBrightGreen": "#99C07B",
-    "terminal.ansiBlue": "#A491CC",
-    "terminal.ansiBrightBlue": "#A491CC",
+    "terminal.ansiBlue": "#B090CA",
+    "terminal.ansiBrightBlue": "#B090CA",
     "terminal.ansiMagenta": "#CEA77A",
     "terminal.ansiBrightMagenta": "#CEA77A",
     "terminal.ansiCyan": "#95C0CD",
@@ -458,14 +458,14 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#A491CC",
+        "foreground": "#B090CA",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["variable.other.property"],
       "settings": {
-        "foreground": "#A491CC",
+        "foreground": "#B090CA",
         "fontStyle": ""
       }
     },
