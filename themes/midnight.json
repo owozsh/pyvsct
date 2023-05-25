@@ -8,7 +8,7 @@
     "type": "#94BAD0",
     "method": "#88BD91",
     "parameter": "#BEA486",
-    "property": "#9F8BDA",
+    "property": "#AC8AD8",
     "variable.defaultLibrary": "#94BAD0"
   },
   "colors": {
@@ -21,8 +21,8 @@
     "terminal.ansiBrightYellow": "#BBBC81",
     "terminal.ansiGreen": "#88BD91",
     "terminal.ansiBrightGreen": "#88BD91",
-    "terminal.ansiBlue": "#9F8BDA",
-    "terminal.ansiBrightBlue": "#9F8BDA",
+    "terminal.ansiBlue": "#AC8AD8",
+    "terminal.ansiBrightBlue": "#AC8AD8",
     "terminal.ansiMagenta": "#BEA486",
     "terminal.ansiBrightMagenta": "#BEA486",
     "terminal.ansiCyan": "#94BAD0",
@@ -117,7 +117,7 @@
     "inputValidation.infoBorder": "#7FBED9",
 
     // CYAN:
-    "editor.lineHighlightBackground": "#1D1F2D",
+    "editor.lineHighlightBackground": "#1D2027",
     "editor.lineHighlightBorder": "#08151f00",
     "editorLineNumber.activeForeground": "#7FBED9",
     "focusBorder": "#7FBED9",
@@ -457,14 +457,14 @@
         "entity.other.attribute-name.tsx"
       ],
       "settings": {
-        "foreground": "#9F8BDA",
+        "foreground": "#AC8AD8",
         "fontStyle": "italic"
       }
     },
     {
       "scope": ["variable.other.property"],
       "settings": {
-        "foreground": "#9F8BDA",
+        "foreground": "#AC8AD8",
         "fontStyle": ""
       }
     },
