@@ -29,9 +29,14 @@
         "path": "./themes/midnight.json"
       },
       {
-        "label": "yogokai classic",
+        "label": "yogokai amora",
         "uiTheme": "vs-dark",
-        "path": "./themes/classic.json"
+        "path": "./themes/amora.json"
+      },
+      {
+        "label": "yogokai night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/night.json"
       }
     ]
   },
