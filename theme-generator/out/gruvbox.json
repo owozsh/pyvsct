@@ -32,9 +32,9 @@
     "terminal.selectionBackground": "#FB493420",
 
     "activityBar.background": "#1d2021",
-    "titleBar.activeBackground": "#262727",
-    "titleBar.inactiveBackground": "#262727",
-    "statusBar.background": "#262727",
+    "titleBar.activeBackground": "#242829",
+    "titleBar.inactiveBackground": "#242829",
+    "statusBar.background": "#242829",
     "statusBar.noFolderBackground": "#17191a",
     "sideBar.background": "#17191a",
     "editorSuggestWidget.background": "#17191a",
@@ -96,8 +96,8 @@
     "editorBracketMatch.border": "#665c54",
     "activityBar.inactiveForeground": "#665c54",
 
-    "statusBar.foreground": "#9e9072",
-    "sideBar.foreground": "#9e9072",
+    "statusBar.foreground": "#928b7e",
+    "sideBar.foreground": "#928b7e",
 
     "inputValidation.warningBackground": "#B8BB2690",
     "inputValidation.warningBorder": "#B8BB26",
@@ -111,7 +111,7 @@
     "inputValidation.infoBackground": "#FE801990",
     "inputValidation.infoBorder": "#FE8019",
 
-    "editor.lineHighlightBackground": "#262727",
+    "editor.lineHighlightBackground": "#242829",
     "editor.lineHighlightBorder": "#00000000",
     "editorLineNumber.activeForeground": "#FABD2F",
     "focusBorder": "#FABD2F",
@@ -209,7 +209,7 @@
     "gitDecoration.deletedResourceForeground": "#FB4934",
     "gitDecoration.stageDeletedResourceForeground": "#FB4934",
     "gitDecoration.stageModifiedResourceForeground": "#FE8019",
-    "gitDecoration.ignoredResourceForeground": "#9e907280",
+    "gitDecoration.ignoredResourceForeground": "#928b7e80",
     "settings.modifiedItemIndicator": "#FE8019",
     "editorBracketHighlight.foreground1": "#D5C4A1",
     "editorBracketHighlight.foreground2": "#FABD2F",

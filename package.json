@@ -52,6 +52,21 @@
         "label": ".ayu",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/ayu.json"
+      },
+      {
+        "label": ".monokai",
+        "uiTheme": "vs-dark",
+        "path": "./theme-generator/out/monokai.json"
+      },
+      {
+        "label": ".catppuccin",
+        "uiTheme": "vs-dark",
+        "path": "./theme-generator/out/catppuccin.json"
+      },
+      {
+        "label": ".ace-combat",
+        "uiTheme": "vs-dark",
+        "path": "./theme-generator/out/ace_combat.json"
       }
     ]
   },

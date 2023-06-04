@@ -32,9 +32,9 @@
     "terminal.selectionBackground": "#C073AF20",
 
     "activityBar.background": "#17191F",
-    "titleBar.activeBackground": "#1f2126",
-    "titleBar.inactiveBackground": "#1f2126",
-    "statusBar.background": "#1f2126",
+    "titleBar.activeBackground": "#1e2028",
+    "titleBar.inactiveBackground": "#1e2028",
+    "statusBar.background": "#1e2028",
     "statusBar.noFolderBackground": "#121317",
     "sideBar.background": "#121317",
     "editorSuggestWidget.background": "#121317",
@@ -111,7 +111,7 @@
     "inputValidation.infoBackground": "#CEA77A90",
     "inputValidation.infoBorder": "#CEA77A",
 
-    "editor.lineHighlightBackground": "#1f2126",
+    "editor.lineHighlightBackground": "#1e2028",
     "editor.lineHighlightBorder": "#00000000",
     "editorLineNumber.activeForeground": "#BBBC81",
     "focusBorder": "#BBBC81",

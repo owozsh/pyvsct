@@ -25,7 +25,7 @@ def limit_color_hsl(value):
   else: return value
 
 def gen_bg3(bg_hex):
-   return update_color(bg_hex, -0.05, +0.03)
+   return update_color(bg_hex, 0, +0.03)
 
 def gen_border(bg_hex):
    return update_color(bg_hex, -0.03, -0.05)
@@ -34,7 +34,7 @@ def gen_bg0(bg_hex):
    return update_color(bg_hex, -0.01, -0.025)
 
 def gen_subtle(fg_hex):
-   return update_color(fg_hex, -0.2, -0.2)
+   return update_color(fg_hex, -0.3, -0.2)
 
 night = {
     '$THEME_NAME':'tomorrow night',
@@ -222,6 +222,78 @@ ayu = {
     '$SUBTLE_FG': gen_subtle("#BFBDB6")
 }
 
-themes = [default, night, gruvbox, pro, dracula, midnight, amora, ayu]
+monokai = {
+    '$THEME_NAME':'monokai',
+
+    '$ACCENT':'#E6B450',
+
+    '$FUNCTION':'#a6e12e',
+    '$TYPE':'#63d4ea',
+    '$PARAMETER':'#fc961f',
+    '$KEYWORD':'#f82a71',
+    '$STRING':'#e6da73',
+    '$PROPERTY':'#d2d3cd',
+    '$FG':'#d2d3cd',
+    '$NUMBER':'#ae80fe',
+
+    '$COMMENT':'#75705d',
+
+    '$BG2':'#252323',
+    '$BG1':'#22231e',
+    '$BG3': gen_bg3("#22231e"),
+    '$BG0': gen_bg0("#22231e"),
+    '$BORDER': gen_border("#22231e"),
+    '$SUBTLE_FG': gen_subtle("#d2d3cd")
+}
+
+catppuccin = {
+    '$THEME_NAME':'catppuccin',
+
+    '$ACCENT':'#89dceb',
+
+    '$FUNCTION':'#a6e3a1',
+    '$TYPE':'#89dceb',
+    '$PARAMETER':'#fab387',
+    '$KEYWORD':'#f38ba8',
+    '$STRING':'#f9e2af',
+    '$PROPERTY':'#b4befe',
+    '$FG':'#cdd6f4',
+    '$NUMBER':'#cba6f7',
+
+    '$COMMENT':'#585b70',
+
+    '$BG2':'#313244',
+    '$BG1':'#1e1e2e',
+    '$BG3': gen_bg3("#1e1e2e"),
+    '$BG0': gen_bg0("#1e1e2e"),
+    '$BORDER': gen_border("#1e1e2e"),
+    '$SUBTLE_FG': gen_subtle("#cdd6f4")
+}
+
+ace_combat = {
+    '$THEME_NAME':'ace combat',
+
+    '$ACCENT':'#A7FFFF',
+
+    '$FUNCTION':'#B2F29A',
+    '$TYPE':'#A7FFFF',
+    '$PARAMETER':'#e8b366',
+    '$KEYWORD':'#FF4E88',
+    '$STRING':'#e3d38d',
+    '$PROPERTY':'#71bbde',
+    '$FG':'#c1d4d4',
+    '$NUMBER':'#a39ce6',
+
+    '$COMMENT':'#364a5e',
+
+    '$BG2':'#111F2B',
+    '$BG1':'#131b26',
+    '$BG3': gen_bg3("#131b26"),
+    '$BG0': gen_bg0("#131b26"),
+    '$BORDER': gen_border("#131b26"),
+    '$SUBTLE_FG': gen_subtle("#c1d4d4")
+}
+
+themes = [default, night, gruvbox, pro, dracula, midnight, amora, ayu, monokai, catppuccin, ace_combat]
 
 generate_themes(themes)
