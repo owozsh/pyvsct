@@ -124,7 +124,7 @@
     "progressBar.background": "#D865A3",
     "list.activeSelectionBackground": "#D865A320",
     "list.focusBackground": "#D865A330",
-    "list.inactiveSelectionBackground": "#D865A325",
+    "list.inactiveSelectionBackground": "#32293aA0",
     "activityBar.dropBorder": "#D1C5DD",
     "activityBarBadge.background": "#D865A3",
     "activityBar.activeBorder": "#D865A3",

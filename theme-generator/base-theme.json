@@ -124,7 +124,7 @@
     "progressBar.background": "$ACCENT",
     "list.activeSelectionBackground": "$ACCENT20",
     "list.focusBackground": "$ACCENT30",
-    "list.inactiveSelectionBackground": "$ACCENT25",
+    "list.inactiveSelectionBackground": "$BG3A0",
     "activityBar.dropBorder": "$FG",
     "activityBarBadge.background": "$ACCENT",
     "activityBar.activeBorder": "$ACCENT",
