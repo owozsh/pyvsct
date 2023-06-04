@@ -31,7 +31,7 @@ def gen_border(bg_hex):
    return update_color(bg_hex, -0.03, -0.05)
 
 def gen_bg0(bg_hex):
-   return update_color(bg_hex, -0.01, -0.025)
+   return update_color(bg_hex, -0.01, -0.02)
 
 def gen_subtle(fg_hex):
    return update_color(fg_hex, -0.3, -0.2)
@@ -108,14 +108,14 @@ gruvbox = {
 pro = {
     '$THEME_NAME':'pro',
 
-    '$ACCENT':'#C3C182',
+    '$ACCENT':'#c3ba82',
 
     '$FUNCTION':'#99C07B',
     '$TYPE':'#95C0CD',
     '$PARAMETER':'#CEA77A',
     '$COMMENT':'#545460',
     '$KEYWORD':'#C76DA3',
-    '$STRING':'#C3C182',
+    '$STRING':'#c3ba82',
     '$PROPERTY':'#B090CA',
     '$FG':'#BFC3CA',
     '$NUMBER':'#9B9DD0',
@@ -294,6 +294,29 @@ ace_combat = {
     '$SUBTLE_FG': gen_subtle("#c1d4d4")
 }
 
-themes = [default, night, gruvbox, pro, dracula, midnight, amora, ayu, monokai, catppuccin, ace_combat]
+nightfox = {
+    '$THEME_NAME':'nightfox',
+
+    '$ACCENT':'#F4A261',
+
+    '$FUNCTION':'#90C7AC',
+    '$TYPE':'#63CDCF',
+    '$PARAMETER':'#F4A261',
+    '$KEYWORD':'#D16982',
+    '$STRING':'#FFEE80',
+    '$PROPERTY':'#86ABDC',
+    '$FG':'#DFDFE0',
+    '$NUMBER':'#9D79D6',
+
+    '$COMMENT':'#71839B',
+
+    '$BG1':'#192330',
+    '$BG3': gen_bg3("#192330"),
+    '$BG0': gen_bg0("#192330"),
+    '$BORDER': gen_border("#192330"),
+    '$SUBTLE_FG': gen_subtle("#DFDFE0")
+}
+
+themes = [default, night, gruvbox, pro, dracula, midnight, amora, ayu, monokai, catppuccin, ace_combat, nightfox]
 
 generate_themes(themes)
