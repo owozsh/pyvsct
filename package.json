@@ -1,7 +1,7 @@
 {
   "name": "yogokai",
   "publisher": "owozsh",
-  "displayName": ".themes",
+  "displayName": "Yogokai",
   "description": "",
   "version": "3.0.0",
   "repository": "https://github.com/owozsh/yogokai",
@@ -14,44 +14,19 @@
   "contributes": {
     "themes": [
       {
-        "label": ".yogokai",
+        "label": "yogokai",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/default.json"
       },
       {
-        "label": ".yogokai-midnight",
+        "label": "yogokai midnight",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/midnight.json"
       },
       {
-        "label": ".amora",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/amora.json"
-      },
-      {
-        "label": ".tomorrow-night",
+        "label": "tomorrow night",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/tomorrow_night.json"
-      },
-      {
-        "label": ".gruvbox",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/gruvbox.json"
-      },
-      {
-        "label": ".dracula",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/dracula.json"
-      },
-      {
-        "label": ".ayu",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/ayu.json"
-      },
-      {
-        "label": ".monokai",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/monokai.json"
       }
     ]
   },
