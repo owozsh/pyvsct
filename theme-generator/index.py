@@ -62,24 +62,23 @@ night = {
 default = {
     '$THEME_NAME':'default',
 
-    '$ACCENT':'#A4DFF9',
+    '$ACCENT':'#A2D1EC',
 
-    '$FUNCTION':'#8EDCA4',
-    '$TYPE':'#A4DFF9',
-    '$PARAMETER':'#EAB685',
-    '$COMMENT':'#5D6F93',
-    '$KEYWORD':'#D970AF',
-    '$STRING':'#D7CB8C',
-    '$PROPERTY':'#B29AE3',
-    '$FG':'#CFCFDF',
-    '$NUMBER':'#DDA6F0',
+    '$FUNCTION':'#8AD8A9',
+    '$TYPE':'#A2D1EC',
+    '$PARAMETER':'#DABB98',
+    '$COMMENT':'#4C5078',
+    '$KEYWORD':'#D77DD3',
+    '$STRING':'#D8D5A1',
+    '$PROPERTY':'#B1A2ED',
+    '$FG':'#C9CBE6',
+    '$NUMBER':'#A6B6F0',
 
-    '$BG2':'#232831',
-    '$BG1':'#1C2028',
-    '$BG3': gen_bg3("#1C2028"),
-    '$BG0': gen_bg0("#1C2028"),
-    '$BORDER': gen_border("#1C2028"),
-    '$SUBTLE_FG': gen_subtle("#CFCFDF")
+    '$BG1':'#12131D',
+    '$BG3': '#21222E',
+    '$BG0': '#171824',
+    '$BORDER': gen_border("#12131D"),
+    '$SUBTLE_FG': "#4C5078"
 }
 
 gruvbox = {
@@ -105,50 +104,26 @@ gruvbox = {
     '$SUBTLE_FG': gen_subtle("#D5C4A1")
 }
 
-pro = {
-    '$THEME_NAME':'pro',
-
-    '$ACCENT':'#c3ba82',
-
-    '$FUNCTION':'#99C07B',
-    '$TYPE':'#95C0CD',
-    '$PARAMETER':'#CEA77A',
-    '$COMMENT':'#545460',
-    '$KEYWORD':'#C76DA3',
-    '$STRING':'#c3ba82',
-    '$PROPERTY':'#B090CA',
-    '$FG':'#BFC3CA',
-    '$NUMBER':'#9B9DD0',
-
-    '$BG1':'#1B1B1F',
-    '$BG2':'#212125',
-    '$BG3': gen_bg3("#1B1B1F"),
-    '$BG0': gen_bg0("#1B1B1F"),
-    '$BORDER': gen_border("#1B1B1F"),
-    '$SUBTLE_FG': gen_subtle("#BFC3CA")
-}
-
 midnight = {
     '$THEME_NAME':'midnight',
 
-    '$ACCENT':'#BBBC81',
+    '$ACCENT':'#B5CC85',
 
-    '$FUNCTION':'#88BD91',
-    '$TYPE':'#94BAD0',
-    '$PARAMETER':'#CEA77A',
-    '$COMMENT':'#484E61',
-    '$KEYWORD':'#C073AF',
-    '$STRING':'#BBBC81',
-    '$PROPERTY':'#AC8AD8',
-    '$FG':'#B7BDCE',
-    '$NUMBER':'#8698CB',
+    '$FUNCTION':'#B5CC85',
+    '$TYPE':'#99D1CB',
+    '$PARAMETER':'#D9B18D',
+    '$COMMENT':'#5E6B76',
+    '$KEYWORD':'#D1778C',
+    '$STRING':'#CFD093',
+    '$PROPERTY':'#BEA5CD',
+    '$FG':'#CAD4DD',
+    '$NUMBER':'#93ACDD',
 
-    '$BG1':'#17191F',
-    '$BG2':'#212125',
-    '$BG3': gen_bg3("#17191F"),
-    '$BG0': gen_bg0("#17191F"),
-    '$BORDER': gen_border("#17191F"),
-    '$SUBTLE_FG': gen_subtle("#B7BDCE")
+    '$BG1':'#0A131A',
+    '$BG3': '#151F27',
+    '$BG0': gen_bg0("#0A131A"),
+    '$BORDER': gen_border("#0A131A"),
+    '$SUBTLE_FG': gen_subtle("#CBCDE2")
 }
 
 dracula = {
@@ -246,77 +221,6 @@ monokai = {
     '$SUBTLE_FG': gen_subtle("#d2d3cd")
 }
 
-catppuccin = {
-    '$THEME_NAME':'catppuccin',
-
-    '$ACCENT':'#89dceb',
-
-    '$FUNCTION':'#a6e3a1',
-    '$TYPE':'#89dceb',
-    '$PARAMETER':'#fab387',
-    '$KEYWORD':'#f38ba8',
-    '$STRING':'#f9e2af',
-    '$PROPERTY':'#b4befe',
-    '$FG':'#cdd6f4',
-    '$NUMBER':'#cba6f7',
-
-    '$COMMENT':'#585b70',
-
-    '$BG2':'#313244',
-    '$BG1':'#1e1e2e',
-    '$BG3': gen_bg3("#1e1e2e"),
-    '$BG0': gen_bg0("#1e1e2e"),
-    '$BORDER': gen_border("#1e1e2e"),
-    '$SUBTLE_FG': gen_subtle("#cdd6f4")
-}
-
-ace_combat = {
-    '$THEME_NAME':'ace combat',
-
-    '$ACCENT':'#A7FFFF',
-
-    '$FUNCTION':'#B2F29A',
-    '$TYPE':'#A7FFFF',
-    '$PARAMETER':'#e8b366',
-    '$KEYWORD':'#FF4E88',
-    '$STRING':'#e3d38d',
-    '$PROPERTY':'#71bbde',
-    '$FG':'#c1d4d4',
-    '$NUMBER':'#a39ce6',
-
-    '$COMMENT':'#364a5e',
-
-    '$BG2':'#111F2B',
-    '$BG1':'#131b26',
-    '$BG3': gen_bg3("#131b26"),
-    '$BG0': gen_bg0("#131b26"),
-    '$BORDER': gen_border("#131b26"),
-    '$SUBTLE_FG': gen_subtle("#c1d4d4")
-}
-
-nightfox = {
-    '$THEME_NAME':'nightfox',
-
-    '$ACCENT':'#F4A261',
-
-    '$FUNCTION':'#90C7AC',
-    '$TYPE':'#63CDCF',
-    '$PARAMETER':'#F4A261',
-    '$KEYWORD':'#D16982',
-    '$STRING':'#FFEE80',
-    '$PROPERTY':'#86ABDC',
-    '$FG':'#DFDFE0',
-    '$NUMBER':'#9D79D6',
-
-    '$COMMENT':'#71839B',
-
-    '$BG1':'#192330',
-    '$BG3': gen_bg3("#192330"),
-    '$BG0': gen_bg0("#192330"),
-    '$BORDER': gen_border("#192330"),
-    '$SUBTLE_FG': gen_subtle("#DFDFE0")
-}
-
-themes = [default, night, gruvbox, pro, dracula, midnight, amora, ayu, monokai, catppuccin, ace_combat, nightfox]
+themes = [default, night, gruvbox, dracula, midnight, amora, ayu, monokai]
 
 generate_themes(themes)

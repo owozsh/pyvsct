@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": ".themes",
   "description": "",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "repository": "https://github.com/owozsh/yogokai",
   "engines": {
     "vscode": "^1.65.0"
@@ -17,11 +17,6 @@
         "label": ".yogokai",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/default.json"
-      },
-      {
-        "label": ".yogokai-pro",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/pro.json"
       },
       {
         "label": ".yogokai-midnight",
@@ -57,21 +52,6 @@
         "label": ".monokai",
         "uiTheme": "vs-dark",
         "path": "./theme-generator/out/monokai.json"
-      },
-      {
-        "label": ".catppuccin",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/catppuccin.json"
-      },
-      {
-        "label": ".ace-combat",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/ace_combat.json"
-      },
-      {
-        "label": ".nightfox",
-        "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/nightfox.json"
       }
     ]
   },
