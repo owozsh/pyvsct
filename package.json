@@ -3,7 +3,7 @@
   "publisher": "owozsh",
   "displayName": "Yogokai",
   "description": "",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "repository": "https://github.com/owozsh/yogokai",
   "engines": {
     "vscode": "^1.65.0"
@@ -29,9 +29,14 @@
         "path": "./theme-generator/out/tomorrow_night.json"
       },
       {
-        "label": "yogokai pro",
+        "label": "yogokai one",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/yogokai_pro.json"
+        "path": "./theme-generator/out/yogokai_one.json"
+      },
+      {
+        "label": "yogokai sunset",
+        "uiTheme": "vs-dark",
+        "path": "./theme-generator/out/yogokai_sunset.json"
       }
     ]
   },
