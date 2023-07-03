@@ -103,8 +103,8 @@ midnight = {
     '$SUBTLE_FG': gen_subtle("#CBCDE2")
 }
 
-pro = {
-    '$THEME_NAME':'yogokai pro',
+sunset = {
+    '$THEME_NAME':'yogokai sunset',
 
     '$ACCENT':'#CCBC82',
 
@@ -125,6 +125,28 @@ pro = {
     '$SUBTLE_FG': gen_subtle("#B3B8C1")
 }
 
-themes = [default, night, midnight, pro]
+one = {
+    '$THEME_NAME':'yogokai one',
+
+    '$ACCENT':'#D2BE74',
+
+    '$FUNCTION':'#B3C15D',
+    '$TYPE':'#8BBC9F',
+    '$PARAMETER':'#D29A59',
+    '$COMMENT':'#757067',
+    '$KEYWORD':'#D1674F',
+    '$STRING':'#D2BE74',
+    '$PROPERTY':'#C789AB',
+    '$FG':'#C8C0B0',
+    '$NUMBER':'#9C95CA',
+
+    '$BG1':'#232322',
+    '$BG3': '#373737',
+    '$BG0': '#282827',
+    '$BORDER': gen_border("#232322"),
+    '$SUBTLE_FG': gen_subtle("#C8C0B0")
+}
+
+themes = [default, night, midnight, sunset, one]
 
 generate_themes(themes)
