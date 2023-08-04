@@ -1,0 +1,24 @@
+{
+  "name": "amora",
+  "publisher": "owozsh",
+  "displayName": "amora",
+  "description": "",
+  "version": "1.0.0",
+  "repository": "https://github.com/owozsh/amora-vscode",
+  "engines": {
+    "vscode": "^1.65.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "amora",
+        "uiTheme": "vs-dark",
+        "path": "./colors/amora.json"
+      }
+    ]
+  },
+  "icon": "icon.png"
+}
