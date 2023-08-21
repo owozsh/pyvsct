@@ -1,1 +1,3 @@
-# vscode-themer
+# pyvsct
+
+A Visual Studio Code Theme Builder.
