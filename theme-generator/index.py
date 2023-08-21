@@ -24,129 +24,147 @@ def limit_color_hsl(value):
   elif value < 0: return 0
   else: return value
 
-def gen_bg3(bg_hex):
+def gen_bg_bright(bg_hex):
    return update_color(bg_hex, 0, +0.03)
 
 def gen_border(bg_hex):
    return update_color(bg_hex, -0.03, -0.05)
 
-def gen_bg0(bg_hex):
+def gen_bg_dark(bg_hex):
    return update_color(bg_hex, -0.01, -0.02)
 
 def gen_subtle(fg_hex):
    return update_color(fg_hex, -0.3, -0.2)
 
-night = {
-    '$THEME_NAME':'tomorrow night',
+generate_themes([
+   {
+    '$THEME_NAME':'yogokai',
 
-    '$ACCENT':'#C2C77B',
+    '$ACCENT':'#9AC0D7',
 
-    '$FUNCTION':'#C2C77B',
-    '$TYPE':'#9AC9C4',
-    '$PARAMETER':'#E6A472',
-    '$COMMENT':'#484C50',
-    '$KEYWORD':'#C0A7C7',
-    '$STRING':'#F4CF86',
-    '$PROPERTY':'#D77C79',
-    '$FG':'#c5c8c6',
-    '$NUMBER':'#92B2CA',
+    '$FUNCTION':'#8AC6A2',
+    '$TYPE':'#9AC0D7',
+    '$PARAMETER':'#D2B38F',
+    '$COMMENT':'#534F79',
+    '$KEYWORD':'#CD83CA',
+    '$STRING':'#D2D08E',
+    '$PROPERTY':'#A699CC',
+    '$FG':'#BCC0CD',
+    '$NUMBER':'#9EAAD5',
 
-    '$BG2':'#2E3034',
-    '$BG1':'#1B1C1D',
-    '$BG3': '#282829',
-    '$BG0': '#222223',
-    '$BORDER': gen_border("#1B1C1D"),
-    '$SUBTLE_FG': gen_subtle("#c5c8c6")
+    '$ERROR': '#CD83CA',
+
+    '$BLACK': '#534F79',
+    '$RED': '#CD83CA',
+    '$GREEN': '#8AC6A2',
+    '$YELLOW': '#D2D08E',
+    '$BLUE': '#9EAAD5',
+    '$MAGENTA': '#D2B38F',
+    '$CYAN': '#9AC0D7',
+    '$WHITE': '#BCC0CD',
+
+    '$SELECTION': '#CFCCC420',
+
+    '$BG_BASE':'#11131D',
+    '$BG_BRIGHT': '#1A1C28',
+    '$BG_DARK': '#0D0F18',
+
+    '$BORDER': gen_border("#11131D"),
+},
+{
+    '$THEME_NAME':'yogokai midnight',
+
+    '$ACCENT':'#A3B67A',
+
+    '$FUNCTION':'#A3B67A',
+    '$TYPE':'#93C5BF',
+    '$PARAMETER':'#CBB383',
+    '$COMMENT':'#38646D',
+    '$KEYWORD':'#C37689',
+    '$STRING':'#B7B879',
+    '$PROPERTY':'#B09CBC',
+    '$FG':'#CFCCC4',
+    '$NUMBER':'#869BC2',
+
+    '$BLACK': '#38646D',
+    '$RED': '#C37689',
+    '$GREEN': '#A3B67A',
+    '$YELLOW': '#B7B879',
+    '$BLUE': '#869BC2',
+    '$MAGENTA': '#CBB383',
+    '$CYAN': '#93C5BF',
+    '$WHITE': '#CFCCC4',
+
+    '$SELECTION': '#CFCCC420',
+
+    '$BG_BASE':'#0D141A',
+    '$BG_BRIGHT': '#131A21',
+    '$BG_DARK': '#0B1116',
+
+    '$BORDER': gen_border("#0D141A"),
+},
+{
+    '$THEME_NAME':'amora',
+
+    '$ACCENT':'#D865A3',
+
+    '$FUNCTION':'#a2baa8',
+    '$TYPE':'#aabae7',
+    '$PARAMETER':'#D29BDB',
+    '$COMMENT':'#594B67',
+    '$KEYWORD':'#D865A3',
+    '$STRING':'#DACEB1',
+    '$PROPERTY':'#D29BDB',
+    '$FG':'#D1C5DD',
+    '$NUMBER':'#A89DE9',
+
+    '$BLACK': '#594B67',
+    '$RED': '#D865A3',
+    '$GREEN': '#a2baa8',
+    '$YELLOW': '#DACEB1',
+    '$BLUE': '#A89DE9',
+    '$MAGENTA': '#D29BDB',
+    '$CYAN': '#aabae7',
+    '$WHITE': '#D1C5DD',
+
+    '$SELECTION': '#D1C5DD20',
+
+    '$BG_BASE':'#2a2331',
+    '$BG_BRIGHT': gen_bg_bright("#2a2331"),
+    '$BG_DARK': gen_bg_dark("#2a2331"),
+
+    '$BORDER': gen_border("#2a2331"),
+},
+{
+    '$THEME_NAME':'std::river',
+
+    '$ACCENT':'#A8A788',
+
+    '$FUNCTION':'#98AC88',
+    '$TYPE':'#81A995',
+    '$PARAMETER':'#A6947A',
+    '$COMMENT':'#456070',
+    '$KEYWORD':'#7B9BA8',
+    '$STRING':'#A8A788',
+    '$PROPERTY':'#9294AA',
+    '$FG':'#B3B4AE',
+    '$NUMBER':'#A07D7B',
+
+    '$BLACK': '#456070',
+    '$RED': '#A07D7B',
+    '$GREEN': '#98AC88',
+    '$YELLOW': '#A8A788',
+    '$BLUE': '#7B9BA8',
+    '$MAGENTA': '#A6947A',
+    '$CYAN': '#81A995',
+    '$WHITE': '#B3B4AE',
+
+    '$SELECTION': '#B3B4AE20',
+
+    '$BG_BASE':'#1B1D1E',
+    '$BG_BRIGHT': '#242525',
+    '$BG_DARK': '#18191A',
+
+    '$BORDER': gen_border("#1B1D1E"),
 }
-
-default = {
-    '$THEME_NAME':'default',
-
-    '$ACCENT':'#A8D7F2',
-
-    '$FUNCTION':'#8AD8A9',
-    '$TYPE':'#A8D7F2',
-    '$PARAMETER':'#DABB98',
-    '$COMMENT':'#5D607A',
-    '$KEYWORD':'#D77DD3',
-    '$STRING':'#D8D5A1',
-    '$PROPERTY':'#B1A2ED',
-    '$FG':'#C9CBE6',
-    '$NUMBER':'#A6B6F0',
-
-    '$BG1':'#151621',
-    '$BG3': '#21222E',
-    '$BG0': '#191B26',
-    '$BORDER': gen_border("#151621"),
-    '$SUBTLE_FG': "#5D607A"
-}
-
-midnight = {
-    '$THEME_NAME':'midnight',
-
-    '$ACCENT':'#B5CC85',
-
-    '$FUNCTION':'#B5CC85',
-    '$TYPE':'#99D1CB',
-    '$PARAMETER':'#D9B18D',
-    '$COMMENT':'#5E6B76',
-    '$KEYWORD':'#D1778C',
-    '$STRING':'#CFD093',
-    '$PROPERTY':'#BEA5CD',
-    '$FG':'#CAD4DD',
-    '$NUMBER':'#93ACDD',
-
-    '$BG1':'#0A131A',
-    '$BG3': '#151F27',
-    '$BG0': '#0F181F',
-    '$BORDER': gen_border("#0A131A"),
-    '$SUBTLE_FG': gen_subtle("#CBCDE2")
-}
-
-sunset = {
-    '$THEME_NAME':'yogokai sunset',
-
-    '$ACCENT':'#CCBC82',
-
-    '$FUNCTION':'#9CB876',
-    '$TYPE':'#88B4CD',
-    '$PARAMETER':'#CAA171',
-    '$COMMENT':'#6F737A',
-    '$KEYWORD':'#AE84BD',
-    '$STRING':'#CCBC82',
-    '$PROPERTY':'#C57272',
-    '$FG':'#B3B8C1',
-    '$NUMBER':'#879CCA',
-
-    '$BG1':'#242527',
-    '$BG3': '#2F3133',
-    '$BG0': '#282A2C',
-    '$BORDER': gen_border("#242527"),
-    '$SUBTLE_FG': gen_subtle("#B3B8C1")
-}
-
-one = {
-    '$THEME_NAME':'yogokai one',
-
-    '$ACCENT':'#D2BE74',
-
-    '$FUNCTION':'#B3C15D',
-    '$TYPE':'#8BBC9F',
-    '$PARAMETER':'#D29A59',
-    '$COMMENT':'#757067',
-    '$KEYWORD':'#D1674F',
-    '$STRING':'#D2BE74',
-    '$PROPERTY':'#C789AB',
-    '$FG':'#C8C0B0',
-    '$NUMBER':'#9C95CA',
-
-    '$BG1':'#232322',
-    '$BG3': '#373737',
-    '$BG0': '#282827',
-    '$BORDER': gen_border("#232322"),
-    '$SUBTLE_FG': gen_subtle("#C8C0B0")
-}
-
-themes = [default, night, midnight, sunset, one]
-
-generate_themes(themes)
+])

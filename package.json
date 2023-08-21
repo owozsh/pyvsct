@@ -16,27 +16,27 @@
       {
         "label": "yogokai",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/default.json"
+        "path": "./theme-generator/out/yogokai.json"
       },
       {
         "label": "yogokai midnight",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/midnight.json"
+        "path": "./theme-generator/out/yogokai_midnight.json"
       },
       {
-        "label": "tomorrow night",
+        "label": "std::river",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/tomorrow_night.json"
+        "path": "./theme-generator/out/std::river.json"
       },
       {
-        "label": "yogokai one",
+        "label": "amora",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/yogokai_one.json"
+        "path": "./theme-generator/out/amora.json"
       },
       {
-        "label": "yogokai sunset",
+        "label": "old yogokai",
         "uiTheme": "vs-dark",
-        "path": "./theme-generator/out/yogokai_sunset.json"
+        "path": "./theme-generator/out/old_yogokai.json"
       }
     ]
   },
