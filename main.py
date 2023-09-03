@@ -6,7 +6,7 @@ import json
 def generate_theme(theme_name, colors, out_dir):
   file_name = theme_name.replace(" ", "_")
 
-  with open('./base-theme.json') as base_theme_file, open(f'{out_dir}/{file_name}.json', 'w') as outfile:
+  with open('./lib/base-theme.json') as base_theme_file, open(f'{out_dir}/{file_name}.json', 'w') as outfile:
     for line in base_theme_file:
       for src, target in colors.items():
         line = line.replace(src, target)
