@@ -1,1 +1,27 @@
-{}
+{
+    "$THEME_NAME": "yogokai",
+    "$ACCENT": "#9AC0D7",
+    "$FUNCTION": "#8AC6A2",
+    "$TYPE": "#9AC0D7",
+    "$PARAMETER": "#D2B38F",
+    "$COMMENT": "#534F79",
+    "$KEYWORD": "#CD83CA",
+    "$STRING": "#D2D08E",
+    "$PROPERTY": "#A699CC",
+    "$FG": "#BCC0CD",
+    "$NUMBER": "#9EAAD5",
+    "$ERROR": "#CD83CA",
+    "$BLACK": "#534F79",
+    "$RED": "#CD83CA",
+    "$GREEN": "#8AC6A2",
+    "$YELLOW": "#D2D08E",
+    "$BLUE": "#9EAAD5",
+    "$MAGENTA": "#D2B38F",
+    "$CYAN": "#9AC0D7",
+    "$WHITE": "#BCC0CD",
+    "$SELECTION": "#CFCCC420",
+    "$BG_BASE": "#11131D",
+    "$BG_BRIGHT": "#1A1C28",
+    "$BG_DARK": "#0D0F18",
+    "$BORDER": "#11131D"
+}

@@ -1,4 +1,5 @@
-from color_utils.color_utils import gen_border, gen_bg_bright, gen_bg_dark
+import typer
+import json
 
 def generate_theme(theme_name, colors):
   file_name = theme_name.replace(" ", "_")
@@ -13,135 +14,8 @@ def generate_themes(themes):
     for theme in themes:
         generate_theme(theme['$THEME_NAME'], theme)
 
-generate_themes([
-   {
-    '$THEME_NAME':'yogokai',
+def main(input_dir: str, output_dir: str):
+    print(f"{input_dir} {output_dir}")
 
-    '$ACCENT':'#9AC0D7',
-
-    '$FUNCTION':'#8AC6A2',
-    '$TYPE':'#9AC0D7',
-    '$PARAMETER':'#D2B38F',
-    '$COMMENT':'#534F79',
-    '$KEYWORD':'#CD83CA',
-    '$STRING':'#D2D08E',
-    '$PROPERTY':'#A699CC',
-    '$FG':'#BCC0CD',
-    '$NUMBER':'#9EAAD5',
-
-    '$ERROR': '#CD83CA',
-
-    '$BLACK': '#534F79',
-    '$RED': '#CD83CA',
-    '$GREEN': '#8AC6A2',
-    '$YELLOW': '#D2D08E',
-    '$BLUE': '#9EAAD5',
-    '$MAGENTA': '#D2B38F',
-    '$CYAN': '#9AC0D7',
-    '$WHITE': '#BCC0CD',
-
-    '$SELECTION': '#CFCCC420',
-
-    '$BG_BASE':'#11131D',
-    '$BG_BRIGHT': '#1A1C28',
-    '$BG_DARK': '#0D0F18',
-
-    '$BORDER': gen_border("#11131D"),
-},
-{
-    '$THEME_NAME':'yogokai midnight',
-
-    '$ACCENT':'#A3B67A',
-
-    '$FUNCTION':'#A3B67A',
-    '$TYPE':'#93C5BF',
-    '$PARAMETER':'#CBB383',
-    '$COMMENT':'#38646D',
-    '$KEYWORD':'#C37689',
-    '$STRING':'#B7B879',
-    '$PROPERTY':'#B09CBC',
-    '$FG':'#CFCCC4',
-    '$NUMBER':'#869BC2',
-
-    '$BLACK': '#38646D',
-    '$RED': '#C37689',
-    '$GREEN': '#A3B67A',
-    '$YELLOW': '#B7B879',
-    '$BLUE': '#869BC2',
-    '$MAGENTA': '#CBB383',
-    '$CYAN': '#93C5BF',
-    '$WHITE': '#CFCCC4',
-
-    '$SELECTION': '#CFCCC420',
-
-    '$BG_BASE':'#0D141A',
-    '$BG_BRIGHT': '#131A21',
-    '$BG_DARK': '#0B1116',
-
-    '$BORDER': gen_border("#0D141A"),
-},
-{
-    '$THEME_NAME':'amora',
-
-    '$ACCENT':'#D865A3',
-
-    '$FUNCTION':'#a2baa8',
-    '$TYPE':'#aabae7',
-    '$PARAMETER':'#D29BDB',
-    '$COMMENT':'#594B67',
-    '$KEYWORD':'#D865A3',
-    '$STRING':'#DACEB1',
-    '$PROPERTY':'#D29BDB',
-    '$FG':'#D1C5DD',
-    '$NUMBER':'#A89DE9',
-
-    '$BLACK': '#594B67',
-    '$RED': '#D865A3',
-    '$GREEN': '#a2baa8',
-    '$YELLOW': '#DACEB1',
-    '$BLUE': '#A89DE9',
-    '$MAGENTA': '#D29BDB',
-    '$CYAN': '#aabae7',
-    '$WHITE': '#D1C5DD',
-
-    '$SELECTION': '#D1C5DD20',
-
-    '$BG_BASE':'#2a2331',
-    '$BG_BRIGHT': gen_bg_bright("#2a2331"),
-    '$BG_DARK': gen_bg_dark("#2a2331"),
-
-    '$BORDER': gen_border("#2a2331"),
-},
-{
-    '$THEME_NAME':'std::river',
-
-    '$ACCENT':'#A8A788',
-
-    '$FUNCTION':'#98AC88',
-    '$TYPE':'#81A995',
-    '$PARAMETER':'#A6947A',
-    '$COMMENT':'#456070',
-    '$KEYWORD':'#7B9BA8',
-    '$STRING':'#A8A788',
-    '$PROPERTY':'#9294AA',
-    '$FG':'#B3B4AE',
-    '$NUMBER':'#A07D7B',
-
-    '$BLACK': '#456070',
-    '$RED': '#A07D7B',
-    '$GREEN': '#98AC88',
-    '$YELLOW': '#A8A788',
-    '$BLUE': '#7B9BA8',
-    '$MAGENTA': '#A6947A',
-    '$CYAN': '#81A995',
-    '$WHITE': '#B3B4AE',
-
-    '$SELECTION': '#B3B4AE20',
-
-    '$BG_BASE':'#1B1D1E',
-    '$BG_BRIGHT': '#242525',
-    '$BG_DARK': '#18191A',
-
-    '$BORDER': gen_border("#1B1D1E"),
-}
-])
+if __name__ == "__main__":
+    typer.run(main)
