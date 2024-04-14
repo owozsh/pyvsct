@@ -6,13 +6,36 @@ import json
 def generate_theme(theme_name, colors, out_dir):
   file_name = theme_name.replace(" ", "_")
 
-  base_theme_dir = os.path.join(os.path.dirname(__file__), 'lib/base-theme.json')
+  vscode = os.path.join(os.path.dirname(__file__), 'lib/templates/vscode.json')
+  windows_terminal = os.path.join(os.path.dirname(__file__), 'lib/templates/windows_terminal.json')
+  kitty = os.path.join(os.path.dirname(__file__), 'lib/templates/kitty.conf')
+  neovim = os.path.join(os.path.dirname(__file__), 'lib/templates/neovim.toml')
 
-  with open(base_theme_dir) as base_theme_file, open(f'{out_dir}/{file_name}.json', 'w') as outfile:
+  with open(vscode) as base_theme_file, open(f'{out_dir}/{file_name}.json', 'w') as outfile:
     for line in base_theme_file:
       for src, target in colors.items():
         line = line.replace(src, target)
       outfile.write(line)
+
+  with open(windows_terminal) as base_theme_file, open(f'{out_dir}/{file_name}_windows_terminal.json', 'w') as outfile:
+    for line in base_theme_file:
+      for src, target in colors.items():
+        line = line.replace(src, target)
+      outfile.write(line)
+
+  with open(kitty) as base_theme_file, open(f'{out_dir}/{file_name}_kitty.conf', 'w') as outfile:
+    for line in base_theme_file:
+      for src, target in colors.items():
+        line = line.replace(src, target)
+      outfile.write(line)
+
+  with open(neovim) as base_theme_file, open(f'{out_dir}/{file_name}_neovim.toml', 'w') as outfile:
+    for line in base_theme_file:
+      for src, target in colors.items():
+        line = line.replace(src, target)
+      outfile.write(line)
+
+  os.system(f'colorgen-nvim {out_dir}/{file_name}_neovim.toml')
 
 def generate_themes(themes, out_dir):
     for theme in themes:
